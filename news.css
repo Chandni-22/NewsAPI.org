@@ -1,0 +1,296 @@
+@font-face{
+    font-family: myFirstFont;
+    src: url(img/iowanoldst-bt/bitstream-iowan-old-style-bt-586c36a8d7712.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#all{
+    width: 90rem;
+    height: 122rem;
+    background: #F8F8F4;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.5625rem;
+    padding: 2rem 0 3.56rem;
+}
+
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5625rem;
+}
+.h1{
+    color: #3C3030;
+    font-family: "myFirstFont";
+    font-size: 5.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 7.35rem */
+}
+.dot{
+    width: 3.76819rem;
+    height: 3.76819rem;
+    background-color: #E84848;
+    border-radius: 50%;
+    margin: 1.8rem 0.25rem 0;
+}
+hr{
+    width: 90rem;
+    height: 0.0225rem;
+    background: #3C3030;
+    margin-top: -5.5625rem;
+    /* opacity: 0; */
+}
+
+
+/* Search Bar */
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2.5625rem;
+}
+.search-div{
+    border: 1px solid rgba(60, 48, 48,0.3);
+    width: 16.6875rem;
+    height: 3.75rem;
+    flex-shrink: 0;
+    border-radius: 0.0625rem;
+    display: flex;
+    padding-left: 1rem;
+    gap: 0.5rem;
+}
+.search-icon{
+    color: #3C3030;
+    font-size: 1.25rem;
+    padding-top: 1.2rem;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.search-input{
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    font-family: "myFirstFont";
+    background: #F8F8F4;
+}
+input::placeholder{
+    color: #3C3030;
+    opacity: 0.7;
+}
+.search-btn{
+    color: #FDFDFA;
+    font-family: "myFirstFont";
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 140%; /* 1.75rem */
+    border-radius: 0.0625rem;
+    border: 1px solid #E84848;
+    background: #E84848;
+    padding: 1.0620rem 0.8125rem 0.99rem 1.375rem;
+}
+
+
+/* Main Content */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+.main-con{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.top-news{
+    color:#D02424;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.025rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+.in-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 5rem;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 15.625rem;
+}
+img{
+    width: 15.625rem;
+    height: 7.5rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+h3{
+    color: var(--Dark, #3C3030);
+    font-family: "Inknut Antiqua", serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.045rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+p{
+    color: var(--Dark, #3C3030);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    opacity: 0.8;
+    margin: 0.5rem 0;
+}
+h4{
+    color: var(--Dark, #3C3030);
+    font-family: "Inria Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.a-div{
+    display: flex;
+    justify-content: space-between;
+    width: 9.5rem;
+}
+a{
+    color: #D02424;
+    border-bottom: 2px solid #D02424;
+    margin: 1.4rem 0;
+}
+
+
+/* Footer */
+.footer-hr{
+    width: 90rem;
+    height: 0.0625rem;
+    background: #3C3030;
+    margin-top: -2.5rem !important;
+}
+.footer{
+    width: 90rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: -2rem;
+}
+.sml-news{
+    display: flex;
+}
+.footer-p{
+    color: var(--Dark, #3C3030);
+    font-family: "myFirstFont";
+    font-size: 0.94344rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 1.32081rem */
+}
+.sml-dot{
+    width: 0.51888rem;
+    height: 0.51888rem;
+    background-color: #E84848;
+    border-radius: 50%;
+    margin: 0.95rem 0.14rem 0;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    #all{
+        gap: 3.75rem;
+        width: 25.875rem;
+        height: 273rem;
+        padding: 1.81rem 0 1.25rem;
+    }
+
+    /* Navbar */
+    .navbar{
+        padding-bottom: 0.5rem;
+    }
+    .h1{
+        font-size: 2.24731rem;
+    }
+    .dot{
+        width: 1.61306rem;
+        height: 1.61306rem;
+        margin: 0.8rem 0.11rem 0;
+    }
+    hr{
+        width: 25.875rem;
+        margin-bottom: 1.25rem;
+    }
+
+    /* Search Bar */
+    .search-container{
+        margin-top: 0;
+    }
+    .search-div{
+        width: 18.9375rem;
+    }
+    
+    /* Main Content */
+    .in-content{
+        flex-direction: column;
+        gap: 1.125rem;
+    }
+    .content1{
+        width: 22.75rem;
+    }
+    img{
+        width: 22.75rem;
+        height: 11.25rem;
+    }
+    p{
+        margin-top: 0;
+    }
+    h4{
+        margin-top: 0;
+    }
+    a{
+        margin-top: 0;
+    }
+
+    /* Footer */
+    .footer-hr{
+        width: 25.875rem;
+        margin-top: 3.75rem !important;
+    }
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .sml-news{
+        display: flex;
+    }
+    .footer-p{
+        font-size: 1rem;
+    }
+    .sml-dot{
+        margin: 0.4rem 0.14rem 0;
+    }
+    .last-div{
+        width: 11rem;
+        margin-top: -1rem;
+    }
+  }
